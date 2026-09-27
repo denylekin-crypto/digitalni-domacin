@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat | Digitalni domaćin</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; background: #f5f7fa; display: flex; flex-direction: column; height: 100vh; }
+        .header { background: white; padding: 20px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .back-button { position: absolute; left: 20px; color: #64748b; text-decoration: none; font-weight: bold; }
+        .chat-container { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 15px; }
+        .message { max-width: 80%; padding: 12px 16px; border-radius: 16px; font-size: 15px; line-height: 1.4; }
+        .bot { background: white; color: #172033; align-self: flex-start; border-bottom-left-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .input-area { background: white; padding: 15px; display: flex; gap: 10px; box-shadow: 0 -2px 10px rgba(0,0,0,0.05); }
+        input { flex: 1; padding: 12px; border: 1px solid #e2e8f0; border-radius: 20px; outline: none; }
+        button { background: #173f5f; color: white; border: none; padding: 10px 20px; border-radius: 20px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="back-button">←</a>
+        <h2 style="font-size: 18px; color: #173f5f;">💬 AI Domaćin</h2>
+    </div>
+
+    <div class="chat-container">
+        <div class="message bot">
+            Zdravo! Ja sam vaš digitalni asistent. Kako vam mogu pomoći danas? Možete me pitati o apartmanu, šifri za internet ili preporukama za restorane.
+        </div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" placeholder="Napišite poruku...">
+        <button>Pošalji</button>
+    </div>
+</body>
+</html>
