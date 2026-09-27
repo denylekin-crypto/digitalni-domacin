@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitalni domaćin | Zlatibor</title>
+    <meta name="description" content="Vaš digitalni domaćin na Zlatiboru – informacije, preporuke, usluge i pomoć gostima.">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fa;
+            color: #172033;
+        }
+        .hero {
+            min-height: 100vh;
+            background:
+                linear-gradient(rgba(10, 25, 40, 0.72), rgba(10, 25, 40, 0.72)),
+                url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=80")
+                center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+        }
+        .welcome {
+            width: 100%;
+            max-width: 520px;
+            background: rgba(255,255,255,0.96);
+            border-radius: 28px;
+            padding: 35px 25px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+        }
+        .logo {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 20px;
+            border-radius: 20px;
+            background: #173f5f;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+        }
+        h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #64748b;
+            line-height: 1.5;
+            margin-bottom: 28px;
+        }
+        .guest-name {
+            color: #173f5f;
+        }
+        .buttons {
+            display: grid;
+            gap: 12px;
+        }
+        .button {
+            display: block;
+            padding: 16px;
+            border-radius: 16px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: 0.2s;
+        }
+        .button:hover {
+            transform: translateY(-2px);
+        }
+        .primary {
+            background: #173f5f;
+            color: white;
+        }
+        .secondary {
+            background: #eef3f7;
+            color: #173f5f;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="welcome">
+            <div class="logo">
+                🏔️
+            </div>
+            <h1>
+                Dobro došli na Zlatibor
+            </h1>
+            <p class="subtitle">
+                Vaš <strong>Digitalni domaćin</strong> je ovde da vam pomogne
+                tokom celog boravka.
+            </p>
+            <div class="buttons">
+                <a href="#" class="button primary">
+                    🏠 Moj apartman
+                </a>
+                <a href="#" class="button secondary">
+                    🗺️ Istražite Zlatibor
+                </a>
+                <a href="#" class="button secondary">
+                    ⭐ Moje preporuke
+                </a>
+                <a href="#" class="button secondary">
+                    🛎️ Usluge za goste
+                </a>
+                <a href="#" class="button secondary">
+                    💬 Pitajte domaćina
+                </a>
+                <a href="#" class="button secondary">
+                    👋 Check-out
+                </a>
+            </div>
+            <div class="footer">
+                Digitalni domaćin · Zlatibor
+            </div>
+        </div>
+    </section>
+</body>
+</html>
